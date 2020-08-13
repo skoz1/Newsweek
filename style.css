@@ -1,77 +1,112 @@
-        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap');
-        body {
-            background-color: rgb(242, 242, 242);
-            font-family: 'Oswald';
-        }
-        /*–––––––––––––––––HEADER–––––––––––––––––*/
-        
-        .header-top {
-            background-color: red;
-            padding: 1rem 1rem 0 1rem;
-            color: white;
-        }
-        
-        .left-title {
-            font-family: 'Roboto Condensed';
-        }
-        
-        #date {
-            font-weight: 100;
-        }
-        
-        .mid-title {
-            font-family: 'Merriweather';
-            font-size: 60px;
-            font-weight: 900;
-            padding-bottom: -20px;
-        }
-        
-        #r {
-            position: relative;
-            right: 1rem;
-            font-size: 9px;
-        }
-        
-        .btn {
-            font-weight: 600;
-            font-size: 17px;
-        }
-        
-        .header-btn {
-            color: white;
-        }
-        
-        .subscribe-btn {
-            border-radius: 40%;
-        }
-        /*–––––––––––––––––NAV–––––––––––––––––––*/
-        
-        nav {}
-        /*–––––––––––––––––MAIN–––––––––––––––––––*/
-        
-        .container {
-            background-color: white;
-        }
-        /*–––––––––––––––––COL-1–––––––––––––––––––*/
-        /*–––––––––––––––––COL-2–––––––––––––––––––*/
-        /*–––––––––––––––––COL-3–––––––––––––––––––*/
-        
-        #h2-vs {
-            width: 100%;
-            text-align: center;
-            border-bottom: 3px double rgb(211, 211, 211);
-            line-height: 0.1em;
-            margin: 10px 0 20px;
-        }
-        
-        #vs {
-            background: #fff;
-            padding: 0 10px;
-            background-color: black;
-            color: white;
-            border-radius: 50%;
-            font-size: 15px;
-            padding: 8px 9px;
-            font-weight: 400;
-            font-family: 'Source Sans Pro';
-        }
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+            body {
+                background-color: rgb(242, 242, 242);
+                font-family: 'Oswald';
+            }
+            /*–––––––––––––––––HEADER–––––––––––––––––*/
+            
+            .header-top {
+                background-color: red;
+                padding: 1rem .5rem 0 .5rem;
+                color: white;
+            }
+            
+            .left-title {
+                font-family: 'Roboto Condensed';
+            }
+            
+            #date {
+                font-weight: 100;
+            }
+            
+            .mid-title {
+                font-family: 'Merriweather';
+                font-size: 65px;
+                font-weight: 900;
+            }
+            
+            #r {
+                position: relative;
+                right: 1rem;
+                font-size: 9px;
+            }
+            
+            .btn {
+                font-weight: 600;
+                font-size: 17px;
+            }
+            
+            .header-btn {
+                color: white;
+            }
+            
+            .subscribe-btn {
+                border-radius: 24px;
+                text-align: center;
+                padding: 4px 8px;
+            }
+            /*–––––––––––––––––NAV–––––––––––––––––––*/
+            
+            .top {
+                font-family: 'Roboto Condensed';
+                font-size: 18px;
+                font-weight: 600;
+                color: black;
+            }
+            
+            .nav-link:hover {
+                color: red;
+            }
+            
+            .form-control {
+                font-family: 'roboto condensed';
+                font-size: 17px;
+            }
+            
+            .bi-search {
+                position: relative;
+                right: 20px;
+            }
+            
+            .trend {
+                pointer-events: none;
+                font-size: 18px;
+                color: black;
+            }
+            
+            .bottom-link {
+                color: grey;
+                font-size: 18px;
+            }
+            
+            .nav-2:hover {
+                color: red;
+            }
+            /*–––––––––––––––––MAIN–––––––––––––––––––*/
+            
+            .container {
+                background-color: white;
+            }
+            /*–––––––––––––––––COL-1–––––––––––––––––––*/
+            /*–––––––––––––––––COL-2–––––––––––––––––––*/
+            /*–––––––––––––––––COL-3–––––––––––––––––––*/
+            
+            #h2-vs {
+                width: 100%;
+                text-align: center;
+                border-bottom: 3px double rgb(211, 211, 211);
+                line-height: 0.1em;
+                margin: 10px 0 20px;
+            }
+            
+            #vs {
+                background: #fff;
+                padding: 0 10px;
+                background-color: black;
+                color: white;
+                border-radius: 50%;
+                font-size: 15px;
+                padding: 8px 9px;
+                font-weight: 400;
+                font-family: 'Source Sans Pro';
+            }
