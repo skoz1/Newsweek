@@ -49,11 +49,8 @@
             }
             /*–––––––––––––––––NAV–––––––––––––––––––*/
             
-            .top {
-                font-family: 'Roboto Condensed';
-                font-size: 18px;
-                font-weight: 600;
-                color: black;
+            .nav-link {
+                font-size: 16px;
             }
             
             .nav-link:hover {
@@ -62,7 +59,6 @@
             
             .form-control {
                 font-family: 'roboto condensed';
-                font-size: 17px;
             }
             
             .trend {
@@ -111,10 +107,6 @@
             
             .border-right {
                 padding: 0 6px;
-            }
-            
-            .extra-p {
-                padding: 0 10px;
             }
             /*–––––––––––––––––MAIN–––––––––––––––––––*/
             
