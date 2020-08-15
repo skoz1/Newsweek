@@ -37,7 +37,7 @@
     </header>
 
 
-    <nav class="navbar navbar-expand-lg container nav-1">
+    <nav class="navbar navbar-expand-lg container nav-1 px-0">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active border-right">
                 <a class="nav-link" href="#">U.S.<span class="sr-only">(current)</span></a>
@@ -73,9 +73,12 @@
                 <a class="nav-link" href="#">Weather</a>
             </li>
         </ul>
-        <form>
-            <input class="form-control" type="text" placeholder="Search">
-        </form>
+
+        <input class="form-control" type="text" placeholder="Search">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          </svg>
     </nav>
 
 
@@ -115,30 +118,32 @@
                         <p>
                             White House Chief of Staff Mark Meadows said this year's elections will go forward as planned November 3 this year, but he defended President Donald Trump's suggestion of delaying it should there be a massive move toward mail-in ballots.
                         </p>
-                        <a href="#">Trump Says Mail-In Voting Session 'Must Be Met With Immediate Litigation'</a>
+                        <p id="brief">
+                            Trump Says Mail-In Voting Session 'Must Be Met With Immediate Litigation'
+                        </p>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Space X.webp" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <h3>
                             <a href="#">SpaceX Crew Dragon Astronauts Return Home in 1st Water Landing Since 1975</a>
                         </h3>
                         <p>NASA astronauts Douglas Hurley and Robert Behnken safely returned from their SpaceX-operated test flight to the International Space Station on Sunday.</p>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/My five year old.webp" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <h3>
                             <a href="#">'My Five-Year-Old Raised $1.6M Walking 6 Miles Using Prosthetic Legs'</a>
                         </h3>
                         <p>We've received thousands of lovely messages from supporters. The Duke and Duchess of Cambridge even tweeted a message to say how proud they were of Tony.</p>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Trump Admin.webp" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <h3>
                             <a href="#">Trump Admin Official: 'Hydroxychloroquine, I Can't Recommend That'</a>
                         </h3>
                         <p>"There's been five randomized control, placebo-controlled trials that do not show any benefit to hydroxychloroquine," Admiral Brett Giroir said.</p>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/R.I.P.webp" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <h3>
                             <a href="#">R.I.P. Wilford Brimley: Actor Known for 'Cocoon,' Diabetes Commercials Dies
@@ -146,7 +151,7 @@
                         </h3>
                         <p>Wilford Brimley, 86, died Saturday morning of a long illness.</p>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Newsweek Ad-img.jpg" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <div class="border">
                             <h3>
@@ -156,7 +161,7 @@
                             <p>The unthinkable has happened and you need a good lawyer to turn to, how do you chose?</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Newsweek Ad-img.jpg" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <div class="border">
                             <h3>
@@ -165,7 +170,7 @@
                             <p>Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Newsweek Ad-img.jpg" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <div class="border">
                             <h3>
@@ -174,7 +179,7 @@
                             <p>The facilities cited by Newsweek are an elite group demonstrating excellence in maternity care. Check the full list here</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Newsweek Ad-img.jpg" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <div class="border">
                             <h3>
@@ -183,7 +188,7 @@
                             <p>Newsweek partnered with REAL Trends to sort through the data and provide you with a list of America's Best Real Estate Professionals</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="image-spacing">
                         <img src="Images/Newsweek Ad-img.jpg" class="img-fluid" alt="Responsive image SpaceX Crew Dragon Astronauts">
                         <div class="border">
                             <h3>
@@ -214,46 +219,46 @@
                     <div class="row">
                         <div class="col">
                             <img src="Images/Sm IMG 1.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">'As A Therapist—This Is What I See Couples Struggling With In The Pandemic'</a>
-                            </h3>
+                            <p class="pointer">
+                                'As A Therapist—This Is What I See Couples Struggling With In The Pandemic'
+                            </p>
 
                         </div>
                         <div class="col">
 
                             <img src="Images/sm IMG 2.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">'My Son Is Autistic—The Pandemic Has Separated Us for 4 Months'</a>
-                            </h3>
+                            <p class="pointer">
+                                My Son Is Autistic—The Pandemic Has Separated Us for 4 Months'
+                            </p>
 
                         </div>
                         <div class="col">
                             <img src="Images/sm IMG 3.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">'Feds Arriving in Portland Dealt a Final Blow to My Pizzeria'</a>
-                            </h3>
+                            <p class="pointer">
+                                'Feds Arriving in Portland Dealt a Final Blow to My Pizzeria'
+                            </p>
 
                         </div>
                         <div class="w-100"></div>
                         <div class="col">
                             <img src="Images/sm IMG 4.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">What It's Like to Travel Across the Country by Amtrak Right Now</a>
-                            </h3>
+                            <p class="pointer">
+                                What It's Like to Travel Across the Country by Amtrak Right Now
+                            </p>
 
                         </div>
                         <div class="col">
                             <img src="Images/sm IMG 5.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">New Summer Books: Escapes That Can't Be Canceled</a>
-                            </h3>
+                            <p class="pointer">
+                                New Summer Books: Escapes That Can't Be Canceled
+                            </p>
 
                         </div>
                         <div class="col">
                             <img src="Images/sm IMG 6.webp" class="img-fluid" alt="Responsive image Donald Trump and White house chief of staff">
-                            <h3>
-                                <a href="#">How Safe Is the New York City Subway Right Now?</a>
-                            </h3>
+                            <p class="pointer">
+                                How Safe Is the New York City Subway Right Now?
+                            </p>
 
                         </div>
                     </div>

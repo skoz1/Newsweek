@@ -1,165 +1,193 @@
-            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
-            body {
-                background-color: rgb(242, 242, 242);
-                font-family: 'Source Sans pro';
-            }
-            /*–––––––––––––––––HEADER–––––––––––––––––*/
-            
-            .header-top {
-                background-color: red;
-                padding: 1rem .5rem 0 .5rem;
-                color: white;
-            }
-            
-            .left-title {
-                font-family: 'Roboto Condensed';
-            }
-            
-            #date {
-                font-weight: 100;
-            }
-            
-            .mid-title {
-                font-family: 'Merriweather';
-                font-size: 65px;
-                font-weight: 900;
-            }
-            
-            #r {
-                position: relative;
-                right: 1rem;
-                font-size: 9px;
-            }
-            
-            .btn {
-                font-weight: 600;
-                font-size: 17px;
-                font-family: 'Oswald';
-                font-weight: 700;
-            }
-            
-            .header-btn {
-                color: white;
-            }
-            
-            .subscribe-btn {
-                border-radius: 24px;
-                text-align: center;
-                padding: 4px 8px;
-            }
-            /*–––––––––––––––––NAV–––––––––––––––––––*/
-            
-            .nav-link {
-                font-size: 16px;
-            }
-            
-            .nav-link:hover {
-                color: red;
-            }
-            
-            .form-control {
-                font-family: 'roboto condensed';
-            }
-            
-            .trend {
-                pointer-events: none;
-                font-size: 16px;
-                color: black;
-                font-family: 'Oswald';
-                font-weight: 700;
-            }
-            
-            .bottom-link {
-                color: grey;
-                font-size: 16px;
-                font-family: 'Oswald';
-                font-weight: 700;
-            }
-            
-            .nav-item {
-                padding: 0 10px;
-            }
-            
-            .nav-1 {
-                margin-bottom: 3px;
-            }
-            
-            .nav-list:hover {
-                color: red;
-            }
-            
-            .nav-2 {
-                padding: 15px;
-            }
-            
-            .form-control {
-                border: none;
-            }
-            
-            input[type=text] {
-                background-color: white;
-                transition: width 0.4s ease-in-out;
-            }
-            
-            input[type=text]:focus {
-                width: 100%;
-            }
-            
-            .border-right {
-                padding: 0 6px;
-            }
-            /*–––––––––––––––––MAIN–––––––––––––––––––*/
-            
-            main {
-                padding-top: 3px;
-            }
-            
-            .container {
-                background-color: white;
-            }
-            
-            #spacing-top {
-                padding: 15px;
-            }
-            
-            h2 {
-                font-size: 15px;
-                font-family: 'Oswald';
-                color: grey;
-            }
-            
-            a {
-                color: black;
-                font-weight: 600;
-                font-family: 'Source Sans Pro';
-                font-size: 20px;
-                line-height: 1px;
-            }
-            
-            a:hover {
-                text-decoration: underline red;
-                color: black;
-            }
-            /*–––––––––––––––––COL-1–––––––––––––––––––*/
-            /*–––––––––––––––––COL-2–––––––––––––––––––*/
-            /*–––––––––––––––––COL-3–––––––––––––––––––*/
-            
-            #h2-vs {
-                width: 100%;
-                text-align: center;
-                border-bottom: 3px double rgb(211, 211, 211);
-                line-height: 0.1em;
-                margin: 10px 0 20px;
-            }
-            
-            #vs {
-                background: #fff;
-                padding: 0 10px;
-                background-color: black;
-                color: white;
-                border-radius: 50%;
-                font-size: 15px;
-                padding: 8px 9px;
-                font-weight: 400;
-                font-family: 'Source Sans Pro';
-            }
+                    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+                    body {
+                        background-color: rgb(242, 242, 242);
+                        font-family: 'Source Sans pro';
+                    }
+                    /*–––––––––––––––––HEADER–––––––––––––––––*/
+                    
+                    .header-top {
+                        background-color: red;
+                        padding: 0 .5rem 0 .5rem;
+                        color: white;
+                    }
+                    
+                    .left-title {
+                        font-family: 'Roboto Condensed';
+                    }
+                    
+                    #date {
+                        font-weight: 100;
+                    }
+                    
+                    .mid-title {
+                        font-family: 'Merriweather';
+                        font-size: 65px;
+                        font-weight: 900;
+                    }
+                    
+                    #r {
+                        position: relative;
+                        right: 1rem;
+                        font-size: 9px;
+                    }
+                    
+                    .btn {
+                        font-weight: 600;
+                        font-size: 17px;
+                        font-family: 'Oswald';
+                        font-weight: 700;
+                    }
+                    
+                    .header-btn {
+                        color: white;
+                    }
+                    
+                    .subscribe-btn {
+                        border-radius: 24px;
+                        text-align: center;
+                        padding: 4px 8px;
+                    }
+                    /*–––––––––––––––––NAV–––––––––––––––––––*/
+                    
+                    .nav-link {
+                        font-size: 16px;
+                    }
+                    
+                    .nav-link:hover {
+                        color: red;
+                    }
+                    
+                    .form-control {
+                        font-family: 'roboto condensed';
+                    }
+                    
+                    .trend {
+                        pointer-events: none;
+                        font-size: 16px;
+                        color: black;
+                        font-family: 'Oswald';
+                        font-weight: 700;
+                    }
+                    
+                    .bottom-link {
+                        color: grey;
+                        font-size: 16px;
+                        font-family: 'Oswald';
+                        font-weight: 700;
+                    }
+                    
+                    .nav-item {
+                        padding: 0 10px;
+                    }
+                    
+                    .nav-1 {
+                        margin-bottom: 3px;
+                    }
+                    
+                    .nav-list:hover {
+                        color: red;
+                    }
+                    
+                    .nav-2 {
+                        padding: 15px;
+                    }
+                    
+                    .form-control {
+                        border: none;
+                        width: 80px;
+                    }
+                    
+                    .border-right {
+                        padding: 0 6px;
+                    }
+                    
+                    input {
+                        position: relative;
+                        right: 100px;
+                    }
+                    
+                    .bi-search {
+                        position: relative;
+                        right: 120px;
+                    }
+                    /*–––––––––––––––––MAIN–––––––––––––––––––*/
+                    
+                    main {
+                        padding-top: 3px;
+                    }
+                    
+                    .container {
+                        background-color: white;
+                    }
+                    
+                    #spacing-top {
+                        padding: 15px;
+                    }
+                    
+                    h3 {
+                        padding-top: 10px;
+                        font-size: 20px;
+                    }
+                    
+                    h2 {
+                        font-size: 15px;
+                        font-family: 'Oswald';
+                        color: grey;
+                        padding-bottom: 5px;
+                    }
+                    
+                    a {
+                        color: black;
+                        font-weight: 600;
+                        font-family: 'Source Sans Pro';
+                        font-size: 20px;
+                        line-height: 1px;
+                    }
+                    
+                    a:hover {
+                        text-decoration: underline red;
+                        color: black;
+                    }
+                    
+                    .image-spacing {
+                        padding-top: 25px;
+                    }
+                    /*–––––––––––––––––COL-1–––––––––––––––––––*/
+                    
+                    #brief {
+                        cursor: pointer;
+                    }
+                    
+                    #brief:hover {
+                        color: rgb(196, 195, 195);
+                    }
+                    /*–––––––––––––––––COL-2–––––––––––––––––––*/
+                    
+                    .pointer {
+                        cursor: pointer;
+                        font-family: 'Oswald';
+                        font-weight: 500;
+                        color: grey;
+                        padding-top: 10px;
+                    }
+                    /*–––––––––––––––––COL-3–––––––––––––––––––*/
+                    
+                    #h2-vs {
+                        width: 100%;
+                        text-align: center;
+                        border-bottom: 3px double rgb(211, 211, 211);
+                        line-height: 0.1em;
+                        margin: 10px 0 20px;
+                    }
+                    
+                    #vs {
+                        background: #fff;
+                        padding: 0 10px;
+                        background-color: black;
+                        color: white;
+                        border-radius: 50%;
+                        font-size: 15px;
+                        padding: 8px 9px;
+                        font-weight: 400;
+                        font-family: 'Source Sans Pro';
+                    }
