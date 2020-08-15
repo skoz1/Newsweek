@@ -7,7 +7,7 @@
                     
                     .header-top {
                         background-color: red;
-                        padding: 0 .5rem 0 .5rem;
+                        padding: 30px .5rem 0 .5rem;
                         color: white;
                     }
                     
@@ -125,7 +125,6 @@
                     }
                     
                     h3 {
-                        padding-top: 10px;
                         font-size: 20px;
                     }
                     
@@ -134,6 +133,14 @@
                         font-family: 'Oswald';
                         color: grey;
                         padding-bottom: 5px;
+                    }
+                    
+                    p {
+                        line-height: 20px;
+                    }
+                    
+                    img {
+                        padding-bottom: 10px;
                     }
                     
                     a {
@@ -168,9 +175,29 @@
                         font-family: 'Oswald';
                         font-weight: 500;
                         color: grey;
-                        padding-top: 10px;
+                    }
+                    
+                    .more {
+                        padding: 10px 0;
+                    }
+                    
+                    .bb {
+                        padding: 10px 0 0 0;
+                    }
+                    
+                    .flex-column {
+                        padding: 0 0 0 12px;
+                    }
+                    
+                    .img-sm-box {
+                        height: 30%;
+                        width: 30%;
                     }
                     /*–––––––––––––––––COL-3–––––––––––––––––––*/
+                    
+                    .border-width {
+                        border-width: thick;
+                    }
                     
                     #h2-vs {
                         width: 100%;
