@@ -92,18 +92,15 @@
                         padding: 15px;
                     }
                     
-                    .form-control {
-                        border: none;
-                        width: 80px;
-                    }
-                    
                     .border-right {
                         padding: 0 6px;
                     }
                     
-                    input {
+                    .search-bar {
                         position: relative;
                         right: 100px;
+                        border: none;
+                        width: 80px;
                     }
                     
                     .bi-search {
@@ -124,15 +121,15 @@
                         padding: 15px;
                     }
                     
-                    h3 {
-                        font-size: 20px;
-                    }
-                    
                     h2 {
                         font-size: 15px;
                         font-family: 'Oswald';
                         color: grey;
                         padding-bottom: 5px;
+                    }
+                    
+                    h3 {
+                        font-size: 22px;
                     }
                     
                     p {
@@ -147,8 +144,6 @@
                         color: black;
                         font-weight: 600;
                         font-family: 'Source Sans Pro';
-                        font-size: 20px;
-                        line-height: 1px;
                     }
                     
                     a:hover {
@@ -189,21 +184,22 @@
                         padding: 0 0 0 12px;
                     }
                     
-                    .img-sm-box {
-                        height: 30%;
-                        width: 30%;
+                    .img-sm {
+                        height: 25%;
+                        width: 25%;
                     }
                     /*–––––––––––––––––COL-3–––––––––––––––––––*/
                     
-                    .border-width {
-                        border-width: thick;
+                    .border-col3 {
+                        border-width: 4px !important;
+                        padding: 0 0 10px 0;
                     }
                     
                     #h2-vs {
                         width: 100%;
                         text-align: center;
                         border-bottom: 3px double rgb(211, 211, 211);
-                        line-height: 0.1em;
+                        line-height: 5px;
                         margin: 10px 0 20px;
                     }
                     
@@ -217,4 +213,28 @@
                         padding: 8px 9px;
                         font-weight: 400;
                         font-family: 'Source Sans Pro';
+                        position: relative;
+                        top: 8px;
+                    }
+                    
+                    h4 {
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    
+                    #author-name {
+                        color: grey;
+                        font-weight: 200;
+                    }
+                    
+                    .space {
+                        padding-top: 15px;
+                    }
+                    
+                    h5 {
+                        font-size: 16px;
+                    }
+                    
+                    .btn-danger {
+                        width: 100%;
                     }
