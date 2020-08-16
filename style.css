@@ -246,5 +246,8 @@
                     .N {
                         background-color: red;
                         color: white;
+                        padding: 0 7px;
+                        font-size: 25px;
+                        font-weight: 600;
                     }
                     /*–––––––––––––––––BOTTOM-SECT–––––––––––––––––––*/
