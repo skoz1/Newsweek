@@ -246,8 +246,51 @@
                     .N {
                         background-color: red;
                         color: white;
-                        padding: 0 7px;
-                        font-size: 25px;
+                        font-size: 30px;
+                        font-weight: 600;
+                        margin: 0 10px;
+                        padding: 0 10px;
+                    }
+                    
+                    .form-b {
+                        background-color: rgb(244, 244, 244);
+                        border: 2px solid rgb(83, 82, 82);
                         font-weight: 600;
                     }
                     /*–––––––––––––––––BOTTOM-SECT–––––––––––––––––––*/
+                    
+                    h6 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        padding-bottom: 10px;
+                    }
+                    
+                    .red-box {
+                        background-color: red;
+                        color: white;
+                        margin-right: 10px;
+                        font-size: 18px;
+                        padding: 3px 5px;
+                    }
+                    
+                    .btn-light {
+                        width: 100%;
+                    }
+                    
+                    .font-b {
+                        font-size: 18px;
+                        color: red;
+                    }
+                    
+                    .img-bg {
+                        height: 65%;
+                        width: auot;
+                        object-fit: cover;
+                    }
+                    
+                    .title-b {
+                        color: red;
+                        font-weight: 600;
+                        padding-top: 20px;
+                    }
+                    /*–––––––––––––––––FOOTER–––––––––––––––––––*/
