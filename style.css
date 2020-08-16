@@ -238,3 +238,13 @@
                     .btn-danger {
                         width: 100%;
                     }
+                    
+                    .bottom-p {
+                        padding: 20px 0;
+                    }
+                    
+                    .n {
+                        background-color: red;
+                        color: white;
+                    }
+                    /*–––––––––––––––––BOTTOM-SECT–––––––––––––––––––*/
