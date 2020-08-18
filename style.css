@@ -1,307 +1,337 @@
-                                                        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
-                                                    body {
-                                                        background-color: rgb(242, 242, 242);
-                                                        font-family: 'Source Sans pro';
-                                                    }
-                                                    /*–––––––––––––––––HEADER–––––––––––––––––*/
-                                                    
-                                                    .header-top {
-                                                        background-color: red;
-                                                        padding: 30px .5rem 0 .5rem;
-                                                        color: white;
-                                                    }
-                                                    
-                                                    .left-title {
-                                                        font-family: 'Roboto Condensed';
-                                                    }
-                                                    
-                                                    #date {
-                                                        font-weight: 100;
-                                                    }
-                                                    
-                                                    .mid-title {
-                                                        font-family: 'Merriweather';
-                                                        font-size: 65px;
-                                                        font-weight: 900;
-                                                    }
-                                                    
-                                                    #r {
-                                                        position: relative;
-                                                        right: 1rem;
-                                                        font-size: 9px;
-                                                    }
-                                                    
-                                                    .btn {
-                                                        font-weight: 600;
-                                                        font-size: 17px;
-                                                        font-family: 'Oswald';
-                                                        font-weight: 700;
-                                                    }
-                                                    
-                                                    .header-btn {
-                                                        color: white;
-                                                    }
-                                                    
-                                                    .subscribe-btn {
-                                                        border-radius: 24px;
-                                                        text-align: center;
-                                                        padding: 4px 8px;
-                                                    }
-                                                    /*–––––––––––––––––NAV–––––––––––––––––––*/
-                                                    
-                                                    .nav-link {
-                                                        font-size: 16px;
-                                                    }
-                                                    
-                                                    .nav-link:hover {
-                                                        color: red;
-                                                    }
-                                                    
-                                                    .form-control {
-                                                        font-family: 'roboto condensed';
-                                                    }
-                                                    
-                                                    .trend {
-                                                        pointer-events: none;
-                                                        font-size: 16px;
-                                                        color: black;
-                                                        font-family: 'Oswald';
-                                                        font-weight: 700;
-                                                    }
-                                                    
-                                                    .bottom-link {
-                                                        color: grey;
-                                                        font-size: 16px;
-                                                        font-family: 'Oswald';
-                                                        font-weight: 700;
-                                                    }
-                                                    
-                                                    .nav-item {
-                                                        padding: 0 10px;
-                                                    }
-                                                    
-                                                    .nav-1 {
-                                                        margin-bottom: 3px;
-                                                    }
-                                                    
-                                                    .nav-list:hover {
-                                                        color: red;
-                                                    }
-                                                    
-                                                    .nav-2 {
-                                                        padding: 15px;
-                                                    }
-                                                    
-                                                    .border-right {
-                                                        padding: 0 6px;
-                                                    }
-                                                    
-                                                    .search-bar {
-                                                        position: relative;
-                                                        right: 100px;
-                                                        border: none;
-                                                        width: 80px;
-                                                    }
-                                                    
-                                                    .bi-search {
-                                                        position: relative;
-                                                        right: 120px;
-                                                    }
-                                                    /*–––––––––––––––––MAIN–––––––––––––––––––*/
-                                                    
-                                                    main {
-                                                        padding-top: 3px;
-                                                    }
-                                                    
-                                                    .container {
-                                                        background-color: white;
-                                                    }
-                                                    
-                                                    #spacing-top {
-                                                        padding: 15px;
-                                                    }
-                                                    
-                                                    h2 {
-                                                        font-size: 15px;
-                                                        font-family: 'Oswald';
-                                                        color: grey;
-                                                        padding-bottom: 5px;
-                                                    }
-                                                    
-                                                    h3 {
-                                                        font-size: 22px;
-                                                    }
-                                                    
-                                                    p {
-                                                        line-height: 20px;
-                                                    }
-                                                    
-                                                    img {
-                                                        padding-bottom: 10px;
-                                                    }
-                                                    
-                                                    a {
-                                                        color: black;
-                                                        font-weight: 600;
-                                                        font-family: 'Source Sans Pro';
-                                                    }
-                                                    
-                                                    a:hover {
-                                                        text-decoration: underline red;
-                                                        color: black;
-                                                    }
-                                                    
-                                                    .image-spacing {
-                                                        padding-top: 25px;
-                                                    }
-                                                    /*–––––––––––––––––COL-1–––––––––––––––––––*/
-                                                    
-                                                    #brief {
-                                                        cursor: pointer;
-                                                    }
-                                                    
-                                                    #brief:hover {
-                                                        color: rgb(196, 195, 195);
-                                                    }
-                                                    /*–––––––––––––––––COL-2–––––––––––––––––––*/
-                                                    
-                                                    .pointer {
-                                                        cursor: pointer;
-                                                        font-family: 'Oswald';
-                                                        font-weight: 500;
-                                                        color: grey;
-                                                    }
-                                                    
-                                                    .more {
-                                                        padding: 10px 0;
-                                                    }
-                                                    
-                                                    .bb {
-                                                        padding: 10px 0 0 0;
-                                                    }
-                                                    
-                                                    .flex-column {
-                                                        padding: 0 0 0 12px;
-                                                    }
-                                                    
-                                                    .img-sm {
-                                                        height: 25%;
-                                                        width: 25%;
-                                                    }
-                                                    /*–––––––––––––––––COL-3–––––––––––––––––––*/
-                                                    
-                                                    .border-col3 {
-                                                        border-width: 4px !important;
-                                                        padding: 0 0 10px 0;
-                                                    }
-                                                    
-                                                    #h2-vs {
-                                                        width: 100%;
-                                                        text-align: center;
-                                                        border-bottom: 3px double rgb(211, 211, 211);
-                                                        line-height: 5px;
-                                                        margin: 10px 0 20px;
-                                                    }
-                                                    
-                                                    #vs {
-                                                        background: #fff;
-                                                        padding: 0 10px;
-                                                        background-color: black;
-                                                        color: white;
-                                                        border-radius: 50%;
-                                                        font-size: 15px;
-                                                        padding: 8px 9px;
-                                                        font-weight: 400;
-                                                        font-family: 'Source Sans Pro';
-                                                        position: relative;
-                                                        top: 8px;
-                                                    }
-                                                    
-                                                    h4 {
-                                                        font-size: 15px;
-                                                        font-weight: bold;
-                                                    }
-                                                    
-                                                    #author-name {
-                                                        color: grey;
-                                                        font-weight: 200;
-                                                    }
-                                                    
-                                                    .space {
-                                                        padding-top: 15px;
-                                                    }
-                                                    
-                                                    h5 {
-                                                        font-size: 16px;
-                                                    }
-                                                    
-                                                    .btn-danger {
-                                                        width: 100%;
-                                                    }
-                                                    
-                                                    .bottom-p {
-                                                        padding: 20px 0;
-                                                    }
-                                                    
-                                                    .N {
-                                                        background-color: red;
-                                                        color: white;
-                                                        font-size: 30px;
-                                                        font-weight: 600;
-                                                        margin: 0 10px;
-                                                        padding: 0 10px;
-                                                    }
-                                                    
-                                                    .form-b {
-                                                        background-color: rgb(244, 244, 244);
-                                                        border: 2px solid rgb(83, 82, 82);
-                                                        font-weight: 600;
-                                                    }
-                                                    /*–––––––––––––––––BOTTOM-SECT–––––––––––––––––––*/
-                                                    
-                                                    .mag-n {
-                                                        background-color: white;
-                                                    }
-                                                    
-                                                    h6 {
-                                                        font-size: 20px;
-                                                        font-weight: 600;
-                                                        padding-bottom: 10px;
-                                                    }
-                                                    
-                                                    .red-box {
-                                                        background-color: red;
-                                                        color: white;
-                                                        margin-right: 10px;
-                                                        font-size: 18px;
-                                                        padding: 3px 5px;
-                                                    }
-                                                    
-                                                    .btn-light {
-                                                        width: 100%;
-                                                    }
-                                                    
-                                                    .font-b {
-                                                        font-size: 18px;
-                                                        color: red;
-                                                    }
-                                                    
-                                                    .img-bg {
-                                                        height: 65%;
-                                                        width: auot;
-                                                        object-fit: cover;
-                                                    }
-                                                    
-                                                    .title-b {
-                                                        color: red;
-                                                        font-weight: 600;
-                                                        padding-top: 20px;
-                                                    }
-                                                    
-                                                    .subscribe-background {
-                                                        background-color: rgb(244, 244, 244);
-                                                    }
-                                                    
-                                                    .sect-separate {
-                                                        padding-top: 3px;
-                                                        /*–––––––––––––––––FOOTER–––––––––––––––––––*/
+                                                            @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+                                                            body {
+                                                                background-color: rgb(242, 242, 242);
+                                                                font-family: 'Source Sans pro';
+                                                            }
+                                                            /*–––––––––––––––––HEADER–––––––––––––––––*/
+                                                            
+                                                            .header-top {
+                                                                background-color: red;
+                                                                padding: 30px .5rem 0 .5rem;
+                                                                color: white;
+                                                            }
+                                                            
+                                                            .left-title {
+                                                                font-family: 'Roboto Condensed';
+                                                            }
+                                                            
+                                                            #date {
+                                                                font-weight: 100;
+                                                            }
+                                                            
+                                                            .mid-title {
+                                                                font-family: 'Merriweather';
+                                                                font-size: 65px;
+                                                                font-weight: 900;
+                                                            }
+                                                            
+                                                            #r {
+                                                                position: relative;
+                                                                right: 1rem;
+                                                                font-size: 9px;
+                                                            }
+                                                            
+                                                            .btn {
+                                                                font-weight: 600;
+                                                                font-size: 17px;
+                                                                font-family: 'Oswald';
+                                                                font-weight: 700;
+                                                            }
+                                                            
+                                                            .header-btn {
+                                                                color: white;
+                                                            }
+                                                            
+                                                            .subscribe-btn {
+                                                                border-radius: 24px;
+                                                                text-align: center;
+                                                                padding: 4px 8px;
+                                                            }
+                                                            /*–––––––––––––––––NAV–––––––––––––––––––*/
+                                                            
+                                                            .nav-link {
+                                                                font-size: 16px;
+                                                            }
+                                                            
+                                                            .nav-link:hover {
+                                                                color: red;
+                                                            }
+                                                            
+                                                            .form-control {
+                                                                font-family: 'roboto condensed';
+                                                            }
+                                                            
+                                                            .trend {
+                                                                pointer-events: none;
+                                                                font-size: 16px;
+                                                                color: black;
+                                                                font-family: 'Oswald';
+                                                                font-weight: 700;
+                                                            }
+                                                            
+                                                            .bottom-link {
+                                                                color: grey;
+                                                                font-size: 16px;
+                                                                font-family: 'Oswald';
+                                                                font-weight: 700;
+                                                            }
+                                                            
+                                                            .nav-item {
+                                                                padding: 0 10px;
+                                                            }
+                                                            
+                                                            .nav-1 {
+                                                                margin-bottom: 3px;
+                                                            }
+                                                            
+                                                            .nav-list:hover {
+                                                                color: red;
+                                                            }
+                                                            
+                                                            .nav-2 {
+                                                                padding: 15px;
+                                                            }
+                                                            
+                                                            .border-right {
+                                                                padding: 0 6px;
+                                                            }
+                                                            
+                                                            .search-bar {
+                                                                position: relative;
+                                                                right: 100px;
+                                                                border: none;
+                                                                width: 80px;
+                                                            }
+                                                            
+                                                            .bi-search {
+                                                                position: relative;
+                                                                right: 120px;
+                                                            }
+                                                            /*–––––––––––––––––MAIN–––––––––––––––––––*/
+                                                            
+                                                            main {
+                                                                padding-top: 3px;
+                                                            }
+                                                            
+                                                            .container {
+                                                                background-color: white;
+                                                            }
+                                                            
+                                                            #spacing-top {
+                                                                padding: 15px;
+                                                            }
+                                                            
+                                                            h2 {
+                                                                font-size: 15px;
+                                                                font-family: 'Oswald';
+                                                                color: grey;
+                                                                padding-bottom: 5px;
+                                                            }
+                                                            
+                                                            h3 {
+                                                                font-size: 22px;
+                                                            }
+                                                            
+                                                            p {
+                                                                line-height: 20px;
+                                                            }
+                                                            
+                                                            img {
+                                                                padding-bottom: 10px;
+                                                            }
+                                                            
+                                                            a {
+                                                                color: black;
+                                                                font-weight: 600;
+                                                                font-family: 'Source Sans Pro';
+                                                            }
+                                                            
+                                                            a:hover {
+                                                                text-decoration: underline red;
+                                                                color: black;
+                                                            }
+                                                            
+                                                            .image-spacing {
+                                                                padding-top: 25px;
+                                                            }
+                                                            /*–––––––––––––––––COL-1–––––––––––––––––––*/
+                                                            
+                                                            #brief {
+                                                                cursor: pointer;
+                                                            }
+                                                            
+                                                            #brief:hover {
+                                                                color: rgb(196, 195, 195);
+                                                            }
+                                                            /*–––––––––––––––––COL-2–––––––––––––––––––*/
+                                                            
+                                                            .pointer {
+                                                                cursor: pointer;
+                                                                font-family: 'Oswald';
+                                                                font-weight: 500;
+                                                                color: grey;
+                                                            }
+                                                            
+                                                            .more {
+                                                                padding: 10px 0;
+                                                            }
+                                                            
+                                                            .bb {
+                                                                padding: 10px 0 0 0;
+                                                            }
+                                                            
+                                                            .flex-column {
+                                                                padding: 0 0 0 12px;
+                                                            }
+                                                            
+                                                            .img-sm {
+                                                                height: 25%;
+                                                                width: 25%;
+                                                            }
+                                                            /*–––––––––––––––––COL-3–––––––––––––––––––*/
+                                                            
+                                                            .border-col3 {
+                                                                border-width: 4px !important;
+                                                                padding: 0 0 10px 0;
+                                                            }
+                                                            
+                                                            #h2-vs {
+                                                                width: 100%;
+                                                                text-align: center;
+                                                                border-bottom: 3px double rgb(211, 211, 211);
+                                                                line-height: 5px;
+                                                                margin: 10px 0 20px;
+                                                            }
+                                                            
+                                                            #vs {
+                                                                background: #fff;
+                                                                padding: 0 10px;
+                                                                background-color: black;
+                                                                color: white;
+                                                                border-radius: 50%;
+                                                                font-size: 15px;
+                                                                padding: 8px 9px;
+                                                                font-weight: 400;
+                                                                font-family: 'Source Sans Pro';
+                                                                position: relative;
+                                                                top: 8px;
+                                                            }
+                                                            
+                                                            h4 {
+                                                                font-size: 15px;
+                                                                font-weight: bold;
+                                                            }
+                                                            
+                                                            #author-name {
+                                                                color: grey;
+                                                                font-weight: 200;
+                                                            }
+                                                            
+                                                            .space {
+                                                                padding-top: 15px;
+                                                            }
+                                                            
+                                                            h5 {
+                                                                font-size: 16px;
+                                                            }
+                                                            
+                                                            .btn-danger {
+                                                                width: 100%;
+                                                            }
+                                                            
+                                                            .bottom-p {
+                                                                padding: 20px 0;
+                                                            }
+                                                            
+                                                            .N {
+                                                                background-color: red;
+                                                                color: white;
+                                                                font-size: 30px;
+                                                                font-weight: 600;
+                                                                margin: 0 10px;
+                                                                padding: 0 10px;
+                                                            }
+                                                            
+                                                            .form-b {
+                                                                background-color: rgb(244, 244, 244);
+                                                                border: 2px solid rgb(83, 82, 82);
+                                                                font-weight: 600;
+                                                            }
+                                                            /*–––––––––––––––––BOTTOM-SECT–––––––––––––––––––*/
+                                                            
+                                                            .mag-n {
+                                                                background-color: white;
+                                                            }
+                                                            
+                                                            h6 {
+                                                                font-size: 20px;
+                                                                font-weight: 600;
+                                                                padding-bottom: 10px;
+                                                            }
+                                                            
+                                                            .red-box {
+                                                                background-color: red;
+                                                                color: white;
+                                                                margin-right: 10px;
+                                                                font-size: 18px;
+                                                                padding: 3px 5px;
+                                                            }
+                                                            
+                                                            .btn-light {
+                                                                width: 100%;
+                                                            }
+                                                            
+                                                            .font-b {
+                                                                font-size: 18px;
+                                                                color: red;
+                                                            }
+                                                            
+                                                            .img-bg {
+                                                                height: 65%;
+                                                                width: auto;
+                                                                object-fit: cover;
+                                                            }
+                                                            
+                                                            .title-b {
+                                                                color: red;
+                                                                font-weight: 600;
+                                                                padding-top: 20px;
+                                                            }
+                                                            
+                                                            .subscribe-background {
+                                                                background-color: rgb(244, 244, 244);
+                                                            }
+                                                            
+                                                            .img-above {
+                                                                position: relative;
+                                                                right: 100px;
+                                                                top: 20px;
+                                                            }
+                                                            
+                                                            .img-md {
+                                                                height: 55%;
+                                                                width: 55%;
+                                                                object-fit: cover;
+                                                            }
+                                                            
+                                                            .ex-column {
+                                                                position: relative;
+                                                                right: 40px;
+                                                                top: 40px;
+                                                                font-size: 25px;
+                                                                font-weight: 600;
+                                                                line-height: 25px;
+                                                            }
+                                                            
+                                                            .small-text {
+                                                                font-size: 15px;
+                                                                font-weight: 100;
+                                                                padding-top: 15px;
+                                                                padding-bottom: 15px;
+                                                            }
+                                                            
+                                                            .title-col-4 {
+                                                                font-size: 20px;
+                                                                font-weight: 600;
+                                                            }
+                                                            /*–––––––––––––––––FOOTER–––––––––––––––––––*/
